@@ -1,6 +1,12 @@
-# vue-calendar@1.1.4
+# vue-calendar@1.1.5
 
-updated 14.04.2024
+I created this calendar as a part of another project under a private org repository. After the project was finished, I was allowed to make this calendar public, so if anyone needs a simple, responsive vue calendar, this could be a good option.
+
+The calendar itself is fully typed, and pretty simple to use, with custom slots for event cards that allow you to implement custom functionality. All actions in the calendar emit an event that can be listened for if necessary.
+
+![image](https://github.com/user-attachments/assets/40d96915-48be-4d2e-ad37-89b1670ccea6)
+![image](https://github.com/user-attachments/assets/ae9b258d-82c7-44f5-ba18-0be9c1e11380)
+
 
 ## Project setup
 
@@ -42,8 +48,8 @@ In the same file, find a chain of `.use()` calls on a `createApp()` object and a
 
 ```javascript
 createApp(App)
-  .use(vuetify)
   .use(store)
+  ...
   .use(router)
   .use(calendar) // add this line
   .mount("#app")
@@ -174,7 +180,3 @@ export default {
 }
 </script>
 ```
-
-## Contribution
-
-kr4 vnk paprasit albertam vai mikam
