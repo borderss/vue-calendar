@@ -1,6 +1,6 @@
 {
   "name": "@borderss/vue-calendar",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "private": false,
   "type": "module",
   "files": [
@@ -20,11 +20,11 @@
   },
   "types": "./dist/index.d.ts",
   "publishConfig": {
-    "@borderss:registry": "https://npm.pkg.github.com"
+    "@borderss:registry": "https://registry.npmjs.org"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/borderss/vue-calendar"
+    "url": "git+https://github.com/borderss/vue-calendar.git"
   },
   "scripts": {
     "dev": "vite",
@@ -65,5 +65,18 @@
   },
   "resolutions": {
     "strip-ansi": "6.0.1"
-  }
+  },
+  "description": "I created this calendar as a part of another project under a private org repository. After the project was finished, I was allowed to make this calendar public, so if anyone needs a simple, responsive vue calendar, this could be a good option.",
+  "bugs": {
+    "url": "https://github.com/borderss/vue-calendar/issues"
+  },
+  "homepage": "https://github.com/borderss/vue-calendar#readme",
+  "keywords": [
+    "Vue",
+    "calendar",
+    "TypeScript",
+    "VueJS"
+  ],
+  "author": "borderss",
+  "license": "GPL-3.0"
 }

@@ -1,4 +1,4 @@
-# vue-calendar@1.1.5
+# vue-calendar@1.1.6
 
 I created this calendar as a part of another project under a private org repository. After the project was finished, I was allowed to make this calendar public, so if anyone needs a simple, responsive vue calendar, this could be a good option.
 
