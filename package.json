@@ -10,6 +10,7 @@
   "module": "./dist/vue-calendar.js",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/vue-calendar.js",
       "require": "./dist/vue-calendar.umd.cjs"
     },
@@ -18,7 +19,6 @@
       "require": "./dist/style.css"
     }
   },
-  "types": "./dist/index.d.ts",
   "publishConfig": {
     "@borderss:registry": "https://registry.npmjs.org"
   },
