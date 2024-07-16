@@ -1,5 +1,5 @@
 <template>
-  <div :class="'event-card color-' + (event.color || 'default')">
+  <div :class="'event-card color-' + (event.color || 'default')" tabindex="0">
     <span class="title" :title="event.title">
       {{ event.title }}<br>
     </span>
@@ -13,8 +13,8 @@
 </template>
 
 <script lang="ts">
-import type { PropType } from 'vue'
 import type { Event } from '@/utils/types';
+import type { PropType } from 'vue';
 
 export default {
   name: 'EventCard',
